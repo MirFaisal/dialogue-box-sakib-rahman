@@ -1,0 +1,43 @@
+body{
+    margin-top: 150PX;
+    padding: 0;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    font: 16px;
+}
+p{
+    line-height: 1.4rem;
+    font-weight: 400;
+    color: gray;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(85, 85, 85);
+}
+
+.dialogue-box{
+    width: 383px;
+    min-height: 180px;
+    margin: auto;
+    padding: 2px 20px;
+    background-color: #e9e6e6;
+}
+.button{
+    height: 50px;
+    width: 380px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #3a57af;
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
